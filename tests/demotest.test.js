@@ -17,4 +17,6 @@ test('GET demo endpoint returns successful response', async () => {
 
   // Add more assertions to verify specific data properties if needed
   expect(data.length).toBeGreaterThan(1) // Example assertion for a hypothetical response
+  expect(data.length).toBeGreaterThan(2) // Example assertion for a hypothetical response
+
 });
