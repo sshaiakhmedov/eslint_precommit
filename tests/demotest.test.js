@@ -9,6 +9,8 @@ test('GET demo endpoint returns successful response', async () => {
 
   const data = response.data; // Access parsed JSON data directly
   console.log('GET data:', data)
+  console.log('GET data:', data)
+
 
   // Add more assertions to verify specific data properties if needed
   expect(data.length).toBeGreaterThan(1) // Example assertion for a hypothetical response

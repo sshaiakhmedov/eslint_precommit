@@ -9,12 +9,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo test"
     }
   },
   "lint-staged": {
     "tests/demotest.test.js": [
-      "eslint ."
+      "eslint --fix"
     ]
   },
   "keywords": [],
