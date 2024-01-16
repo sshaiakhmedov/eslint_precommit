@@ -51,6 +51,12 @@ If the words `test`, `expect` are undefined:
 
 - `npm -i eslint -D`
 - `npx eslint --init`
+- add needed rules {} object based on your project's requirements like 
+```
+"rules": {
+        "semi": ["error"] // This will report missing semicolons as errors.
+    }
+```
 
 
 ## pre-commit hook installation

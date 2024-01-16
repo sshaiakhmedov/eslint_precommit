@@ -22,5 +22,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "semi": ["error"] // This will report missing semicolons as errors.
     }
-}
+};
