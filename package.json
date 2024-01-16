@@ -13,7 +13,9 @@
     }
   },
   "lint-staged": {
-    "**/*": ["npm run lint"]
+    "**/*": [
+      "npm run lint"
+    ]
   },
   "keywords": [],
   "author": "Emil (Suleman) Shaiakhmeodov",
@@ -27,12 +29,12 @@
     "babel-jest": "^29.7.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^8.56.0",
-    "husky": "^8.0.3",
     "jest": "^29.7.0",
     "lint-staged": "^15.2.0"
   },
   "dependencies": {
     "axios": "^1.6.5",
+    "husky": "^8.0.3",
     "jest-jasmine2": "^29.7.0"
   }
 }

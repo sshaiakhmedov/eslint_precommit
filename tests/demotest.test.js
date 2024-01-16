@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'
 import { expect } from '@jest/globals'
 import { test } from '@jest/globals'
 
