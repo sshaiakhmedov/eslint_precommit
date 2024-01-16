@@ -13,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "./tests/demotest.test.js": [
+    "tests/demotest.test.js": [
       "eslint ."
     ]
   },
