@@ -14,7 +14,7 @@
   },
   "lint-staged": {
     "tests/demotest.test.js": [
-      "eslint --fix"
+      "npx eslint --fix"
     ]
   },
   "keywords": [],
