@@ -22,6 +22,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "semi": ["error"] // This will report missing semicolons as errors.
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"]
     }
 }
