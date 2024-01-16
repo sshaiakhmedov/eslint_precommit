@@ -5,7 +5,7 @@ import { test } from '@jest/globals'
 
 test('GET demo endpoint returns successful response', async () => {
   const response = await axios.get('https://cat-fact.herokuapp.com/facts/')
-  expect(response.status).toBe(200); // Assert that the status code is 200
+  expect(response.status).toBe(200) // Assert that the status code is 200
 
   const data = response.data; // Access parsed JSON data directly
   console.log('GET data:', data)
