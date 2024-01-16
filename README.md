@@ -47,6 +47,20 @@ If the words `test`, `expect` are undefined:
 ```
 
 
+## Finally: configure pre-commit eslint hook
+
+- `npm -i eslint -D`
+- `npx eslint --init`
+
+
+## pre-commit hook installation
+
+- `npx husky install`
+- `npm install --save-dev eslint husky lint-staged`
+- add hasky and lint-staged scripts into package.json
+
+
+
 
 
 
