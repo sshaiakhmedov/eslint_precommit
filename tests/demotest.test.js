@@ -12,6 +12,7 @@ test('GET demo endpoint returns successful response', async () => {
   console.log('GET data:', data)
   console.log('GET data:', data1)
   console.log('GET data:', data1)
+  console.log('GET data1:', data1)
 
 
   // Add more assertions to verify specific data properties if needed
