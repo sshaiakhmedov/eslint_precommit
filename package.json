@@ -13,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "tests/demotest.test.js": [
+    "all": [
       "npx eslint --fix"
     ]
   },
