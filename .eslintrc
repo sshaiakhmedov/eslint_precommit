@@ -10,7 +10,7 @@
                 "node": true
             },
             "files": [
-                ".eslintrc.{js,cjs}"
+                ".eslintrc"
             ],
             "parserOptions": {
                 "sourceType": "script"
