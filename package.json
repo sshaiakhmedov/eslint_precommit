@@ -14,9 +14,10 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
-      "eslint --fix",
-      "git add"
+      "npx prettier --write",
+      "npx eslint --fix",
+      "git add",
+      "echo testststsststst"
     ]
   },
   "pre-commit": [
