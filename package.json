@@ -7,16 +7,15 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "all": [
-      "eslint --fix"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
     ]
   },
+  "pre-commit": [
+    "lint-staged"
+  ],
   "keywords": [],
   "author": "Emil (Suleman) Shaiakhmeodov",
   "license": "ISC",
