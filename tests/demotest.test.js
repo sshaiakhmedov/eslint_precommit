@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { expect } from '@jest/globals';
-import { test } from '@jest/globals';
+import { expect } from '@jest/globals'
+import { test } from '@jest/globals'
 
 
 test('GET demo endpoint returns successful response', async () => {
